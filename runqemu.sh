@@ -3,6 +3,7 @@
 #Host forwarding: Host Port 10022 ->> QEMU Port 22 
 #Author: Siddhant Jajoo.
 
+
 #A5 P2: forward host port 9000 to your qemu instance port 9000. Also to pass through virtual machine port 10022 to port 22 on your qemu instance.
 qemu-system-aarch64 \
     -M virt  \
