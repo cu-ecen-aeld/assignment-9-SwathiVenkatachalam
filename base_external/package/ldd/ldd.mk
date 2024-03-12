@@ -5,6 +5,8 @@
 # Reference: https://buildroot.org/downloads/manual/manual.html#_infrastructure_for_packages_building_kernel_modules
 # Updates Made: AESD_ASSIGNMENTS replaced with LDD
 #             : Commit number of Assignment 7
+#             : MODULE_SUBDIRS
+#             : load and unload misc-modules and scull
 ##############################################################
 
 #TODO: Fill up the contents below in order to reference your assignment 7 git contents
