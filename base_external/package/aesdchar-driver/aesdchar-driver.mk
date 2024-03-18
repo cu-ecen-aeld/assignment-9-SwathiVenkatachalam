@@ -3,7 +3,7 @@
 # Base file: AESDCHAR-DRIVER.MK
 # Modified from: LDD.MK
 # Reference: https://buildroot.org/downloads/manual/manual.html#_infrastructure_for_packages_building_kernel_modules
-# Updates Made: LDD replaced with AESDCHAR-DRIVER
+# Updates Made: LDD replaced with AESDCHAR-DRIVER for A8
 #             : Commit number of Assignment 3
 ##############################################################
 
