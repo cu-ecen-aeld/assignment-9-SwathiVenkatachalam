@@ -17,13 +17,13 @@ AESDCHAR_DRIVER_SITE_METHOD = git
 AESDCHAR_DRIVER_GIT_SUBMODULES = YES
 
 # Added for A8: build these subdirectories with the MODULE_SUBDIRS option
-AESDCHAR_DRIVER_MODULE_SUBDIRS = aesdchar-driver
+AESDCHAR_DRIVER_MODULE_SUBDIRS = aesd-char-driver
 
 # Added for A8: aesdchar-driver added to the installation steps below
-define AESDCHAR-DRIVER_INSTALL_TARGET_CMDS
-	$(INSTALL) -m 0755 $(@D)/aesdchar-driver/aesdchar_load $(TARGET_DIR)/bin
-	$(INSTALL) -m 0755 $(@D)/aesdchar-driver/aesdchar_unload $(TARGET_DIR)/bin
-        $(INSTALL) -m 0755 $(@D)/aesdchar-driver/aesdchardriver-start-stop.sh $(TARGET_DIR)/etc/init.d/S97aesdchar
+define AESDCHAR_DRIVER_INSTALL_TARGET_CMDS
+	$(INSTALL) -m 0755 $(@D)/aesd-char-driver/aesdchar_load $(TARGET_DIR)/bin
+	$(INSTALL) -m 0755 $(@D)/aesd-char-driver/aesdchar_unload $(TARGET_DIR)/bin
+        $(INSTALL) -m 0755 $(@D)/aesd-char-driver/aesdchardriver-start-stop.sh $(TARGET_DIR)/etc/init.d/S97aesdchar
 endef
 
 # added for A7
